@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s1.sj19.quhaofeng.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p0_bg_badminton"/>
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_check_circle_white_24dp"
+        android:onClick="introduceHandler"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="56dp"
+        android:paddingTop="24dp"
+        android:text="@string/btn_introduce"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:drawableLeft="@drawable/ic_filter_drama_white_24dp"
+        android:onClick="introduceHandler"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="56dp"
+        android:paddingTop="24dp"
+        android:text="@string/btn_area"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:drawableLeft="@drawable/ic_fitness_center_white_24dp"
+        android:onClick="introduceHandler"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="56dp"
+        android:paddingTop="24dp"
+        android:text="@string/btn_rule"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:drawableLeft="@drawable/ic_child_care_white_24dp"
+        android:onClick="introduceHandler"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="56dp"
+        android:paddingTop="24dp"
+        android:text="@string/btn_skill"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:drawableLeft="@drawable/ic_healing_white_24dp"
+        android:onClick="introduceHandler"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="56dp"
+        android:paddingTop="24dp"
+        android:text="@string/btn_other"
+        android:textSize="18sp"/>
+
+</LinearLayout>

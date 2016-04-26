@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">打羽毛球吧</string>
+    <string name="btn_introduce">运动介绍</string>
+    <string name="btn_area">场地要求</string>
+    <string name="btn_rule">运动规则</string>
+    <string name="btn_skill">打法技巧</string>
+    <string name="btn_other">其他知识</string>
+
+</resources>
