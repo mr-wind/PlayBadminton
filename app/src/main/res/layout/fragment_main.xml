@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:theme="@style/AppTheme"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:theme="@style/AppTheme">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -15,6 +16,7 @@
         android:id="@+id/a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="8dp"
@@ -30,6 +32,7 @@
         android:id="@+id/b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:drawableLeft="@drawable/ic_filter_drama_white_24dp"
@@ -44,6 +47,7 @@
         android:id="@+id/c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:drawableLeft="@drawable/ic_account_balance_white_24dp"
@@ -58,6 +62,7 @@
         android:id="@+id/d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:drawableLeft="@drawable/ic_child_care_white_24dp"
