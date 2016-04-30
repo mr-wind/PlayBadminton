@@ -18,6 +18,7 @@
         <activity android:name=".DetailActivity" android:theme="@style/CustomTitle">
 
         </activity>
+
     </application>
 
 </manifest>
