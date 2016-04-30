@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:drawableLeft="@drawable/ic_fitness_center_white_24dp"
+        android:drawableLeft="@drawable/ic_account_balance_white_24dp"
         android:paddingBottom="16dp"
         android:paddingLeft="32dp"
         android:paddingRight="32dp"
